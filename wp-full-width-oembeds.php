@@ -86,7 +86,7 @@ if ( ! class_exists( 'WP_Full_Width_Oembeds' ) ):
          * Wrap oEmbed iframes in custom container,
          * to allow proper styling of iframe proportions.
          *
-         * @param string $ifram_html the HTML of the discovered iframe
+         * @param string $iframe_html the HTML of the discovered iframe
          * @return string the updated HTML
          */
         function wrap_oembed_iframe_in_container( $iframe_html ) {
